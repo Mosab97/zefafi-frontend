@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'sst';
+    src: url(../fonts/SSTArabicRoman.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'sst';
+    src: url(../fonts/SSTArabicMedium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'sst';
+    src: url(../fonts/SSTArabicBold.ttf);
+    font-weight: 600;
+}
+body {
+    direction: rtl;
+    font-family: 'sst' !important
+}
+.brands .owl-carousel {
+    direction: ltr;
+}
+.banner-section p.head-title {
+    font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'sst' !important;
+
+}
+.faq-section .accordion-box .block h4,
+.content-box {
+    text-align: right;
+}
+p {
+    font-family: 'sst' !important;
+    font-weight: 500;
+}
+.download-section .owl-nav {
+    right: unset;
+    left: 33px;
+}
+.banner-section .download-btn > a {
+    margin-right: unset;
+    margin-left: 30px;
+
+}
+.logo-box, .main-menu, .main-menu .navigation > li {
+    float: right;
+}
+
+.main-header .menu-right-content {
+    margin-left: unset;
+    padding-right: unset;
+
+
+    margin-right: 50px;
+    padding-left: 32px;
+}
+
+.main-header .menu-right-content a.lang {
+    margin-right: 30px;
+    margin-left: unset;
+}
+.banner-section .content-box,
+.main-footer .footer-top .about-widget{
+    text-align: right;
+}
+.social-links {
+    text-align: left!important;
+}
+.banner-section .image-box .image-1 img.mobile1 {
+    top:274px;
+}
+.main-footer .footer-top .links-widget .list li {
+    padding-right: 0;
+    padding-left: 40px;
+}
+.main-footer .footer-top .links-widget .list li:last-child {
+    padding-left: 0;
+}
+.info a {
+    margin-right: 0;
+    margin-left: 20px;
+    float: right;
+}
+.banner-section .image-box .image-1 img.mobile1 {
+    left: 0;
+    right: unset;
+}
+.brands .owl-carousel,
+.download-section .owl-carousel,
+.testimonial-style-12 .owl-carousel{
+    direction: ltr;
+}
+.brands {
+    padding-right: 252px;
+    padding-left: 0;
+}
+
+.banner-section:before,
+.feature-style-two:after,
+.feature-style-two:before{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.banner-section .download-btn > a:last-child {
+    margin-left: 0;
+}
+@media only screen and (max-width: 1200px){
+    #content_block_05 .content-box .download-btn .app-store-btn {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}
+
+.brands .owl-nav {
+    left: 0;
+    right: unset;
+}
+.brands h5, .faq-section .accordion-box .block .content .text {
+    text-align: right;
+}
+.brands .owl-carousel .owl-item img {
+    margin-left: 30px;
+
+}
+.main-footer .footer-top .social-links li {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.main-footer .footer-top .social-links li:last-child {
+    margin-left: 0;
+}
+@media (max-width: 768px){
+    .brands {
+        padding-right: 0px;
+    }
+    .main-footer .footer-top .about-widget {
+        text-align: center;
+    }
+    .info a {
+        float: unset;
+    }
+}
+
+#work_slide .owl-stage {
+    padding-left: 30px!important;
+}
+.menu-area {
+    float: left;
+}
+.menu-area .mobile-nav-toggler {
+    float: left;
+}
+.mobile-menu-visible .mobile-menu .menu-box {
+    text-align: right;
+}
+.mobile-menu .nav-logo {
+    text-align: center;
+}
+#content_block_05 .content-box .download-btn .app-store-btn {
+    margin-right: 0;
+    /*margin-left: 25px;*/
+}
+
+#content_block_05 .content-box .download-btn a i {
+     right:13px;
+    left: unset;
+}
+#content_block_05 .content-box .download-btn a {
+    padding-right: 63px;
+    padding-left: 20px;
+}
+
+#content_block_05 .content-box .download-btn a {
+    width: 180px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 599px){
+    #content_block_05 .content-box .download-btn a i {
+        right: 2px;    top: 13px;
+    }
+    #content_block_05 .content-box .download-btn a {
+        padding-right: 31px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .social-links {
+        text-align: center!important;
+    }
+}
